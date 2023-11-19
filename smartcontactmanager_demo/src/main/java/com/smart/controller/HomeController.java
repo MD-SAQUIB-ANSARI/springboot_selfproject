@@ -30,14 +30,14 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String home(Model model) {
-		model.addAttribute("title", "Home - Smart Contact Manager");
+		model.addAttribute("title", "Home-Formal Fashion Tailors");
 		return "home";
 	}
 //saquib
-	@RequestMapping("/paymentway")
-	public String paymentway(Model model) {
-		model.addAttribute("title", "Payment way tuo use");
-		return "paymentway";
+	@RequestMapping("/producthome")
+	public String producthome(Model model) {
+		model.addAttribute("title", "Product way tuo use");
+		return "producthome";
 	}
 	
 	//
